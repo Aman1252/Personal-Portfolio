@@ -80,15 +80,6 @@ header {
     color: #2F3061;
 }
 
-.projects .btn {
-    color: #F7FFF7;
-    background: #2F3061;
-    text-decoration: none;
-    padding: 8px;
-    border-radius: 4px;
-    float: right;
-}
-
 .projects .btn:hover {
     background: rgba(47,48,97,80%);
 }
@@ -149,6 +140,15 @@ footer {
         display: flex;
         justify-content: center;
     }
+
+    .projects .btn {
+        color: #F7FFF7;
+        background: #2F3061;
+        text-decoration: none;
+        padding: 8px;
+        border-radius: 4px;
+        float: right;
+    }
 }
 
 @media screen and (max-width: 749px) {
@@ -166,4 +166,12 @@ footer {
         padding: 5px;
     }
 
+    .projects .btn {
+        color: #F7FFF7;
+        background: #2F3061;
+        text-decoration: none;
+        padding: 8px;
+        border-radius: 4px;
+        float: right;
+    }
 }
